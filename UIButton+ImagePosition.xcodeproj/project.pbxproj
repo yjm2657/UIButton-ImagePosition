@@ -12,6 +12,7 @@
 		09F6080D1F2F087800A6DA0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F6080B1F2F087800A6DA0E /* Main.storyboard */; };
 		09F6080F1F2F087800A6DA0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F6080E1F2F087800A6DA0E /* Assets.xcassets */; };
 		09F608121F2F087800A6DA0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F608101F2F087800A6DA0E /* LaunchScreen.storyboard */; };
+		09F6081A1F2F08A100A6DA0E /* UIButton+ImagePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F608191F2F08A100A6DA0E /* UIButton+ImagePosition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		09F6080E1F2F087800A6DA0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09F608111F2F087800A6DA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09F608131F2F087800A6DA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F608191F2F08A100A6DA0E /* UIButton+ImagePosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+ImagePosition.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				09F608071F2F087800A6DA0E /* AppDelegate.swift */,
 				09F608091F2F087800A6DA0E /* ViewController.swift */,
+				09F608191F2F08A100A6DA0E /* UIButton+ImagePosition.swift */,
 				09F6080B1F2F087800A6DA0E /* Main.storyboard */,
 				09F6080E1F2F087800A6DA0E /* Assets.xcassets */,
 				09F608101F2F087800A6DA0E /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09F6081A1F2F08A100A6DA0E /* UIButton+ImagePosition.swift in Sources */,
 				09F6080A1F2F087800A6DA0E /* ViewController.swift in Sources */,
 				09F608081F2F087800A6DA0E /* AppDelegate.swift in Sources */,
 			);
